@@ -1,0 +1,371 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Razkan Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="mediaqueries.css" />
+</head>
+<body>
+    <nav id="desktop-nav">
+        <div class="logo">Razkan </div>
+        <div>
+            <ul class="nav-links">
+                <li><a href="#about">About</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+    <nav id="hamburger-nav">
+        <div class="logo">Razkan</div>
+            <div class="hamburger-menu">
+                <div class="hamburger-icon" onclick="toggleMenu()">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+                <div class="menu-links">
+                    <li><a href="#" onclick="toggleMenu()">About</a></li>
+                    <li><a href="#" onclick="toggleMenu()">Experience</a></li>
+                    <li><a href="#" onclick="toggleMenu()">Projects</a></li>
+                    <li><a href="#" onclick="toggleMenu()">Contact</a></li>
+                </div>
+            </div>
+    </nav>
+    <section id="hero">
+        <div class="section_pic">
+            <img src="./assets/razkan_pic.png" alt="Laila profile picture" style="border-radius: 50%;"/>
+        </div>
+        <div class="section_text">
+            <p class="section_text_p1">Hi there, I'm</p>  
+            <h1 class="title"> Laila</h1>
+            <p class="section_text_p2"> Frontend Developer</p>
+            <h2 class="sub-title">at Razkan Marketing</h2>
+            <div class="button-holder"> 
+                <button 
+                    class="btn btn_one" 
+                    onclick="window.open('./assets/resume-example.pdf')"> 
+                    Download CV
+                </button>
+                <button 
+                    class="btn btn_two" 
+                    onclick="location.href='./#contact'"> 
+                    Contact Me
+                </button>
+            </div>
+            <div id="socials_holder">
+                <img src="./assets/github-mark.png" alt="My GitHub account" 
+                class="icon" 
+                onclick="location.href='https/#GitHub'"/>
+                <img src="./assets/icon_clyde_black_RGB.png" alt="My Discord account" 
+                class="icon" 
+                onclick="location.href='https/#Discord'"/>
+            </div>
+        </div>
+    </section>
+    <section id="about">
+        <p class="section_text_p1">Get To Know More</p>
+        <h1 class="title">About Me</h1>
+        <div class="section-container">
+            <div class="about-details-container">
+                <div class="about-containers">
+                    <div class="details-container">
+                      <img
+                        src="./assets/experience_light.png"
+                        alt="Experience icon"
+                        class="icon"
+                      />
+                      <h3>Experience</h3>
+                      <p>2+ years Frontend Development</p>
+                      <p>3+ years Marketing</p>
+                    </div>
+                    <div class="details-container">
+                      <img
+                        src="./assets/education_light.png"
+                        alt="Education icon"
+                        class="icon"
+                      />
+                      <h3>Education</h3>
+                      <p>Self Taught developer <br/> and Marketing Consultant</p>
+                    </div>
+                  </div>
+                  <div class="text-container">
+                    <p>
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic quis
+                      reprehenderit et laborum, rem, dolore eum quod voluptate
+                      exercitationem nobis, nihil esse debitis maxime facere minus sint
+                      delectus velit in eos quo officiis explicabo deleniti dignissimos.
+                      Eligendi illum libero dolorum cum laboriosam corrupti quidem,
+                      reiciendis ea magnam? Nulla, impedit fuga!
+                    </p>
+                  </div>
+            </div>
+        </div>
+        <img
+        src="./assets/arrow_light.png"
+        alt="Arrow icon"
+        class="icon arrow"
+        onclick="location.href='./#experience'"
+      />
+    </section>
+    <section id="experience">
+      <p class="section_text_p1">Explore My</p>
+      <h1 class="title">Experience</h1>
+      <div class="experience-details-container">
+        <div class="about-containers">
+          <div class="details-container">
+            <h2 class="experience-sub-title">Frontend Development</h2>
+            <div class="article-container">
+              <article>
+                <img
+                  src="./assets/checkmark_light.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>HTML</h3>
+                  <p>Experienced</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark_light.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>CSS</h3>
+                  <p>Experienced</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark_light.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>JavaScript</h3>
+                  <p>Basic</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark_light.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Web Developer</h3>
+                  <p>Experienced</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark_light.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Email Developer</h3>
+                  <p>Experienced</p>
+                </div>
+              </article>
+            </div>
+          </div>
+          <div class="details-container">
+            <h2 class="experience-sub-title">Marketing Consultant</h2>
+            <div class="article-container">
+              <article>
+                <img
+                  src="./assets/checkmark_light.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Business Strategy</h3>
+                  <p>Experienced</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark_light.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Email Marketing</h3>
+                  <p>Experienced</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark_light.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Paid Ads</h3>
+                  <p>Basic</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark_light.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Figma</h3>
+                  <p>Intermediate</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark_light.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Klaviyo</h3>
+                  <p>Experienced</p>
+                </div>
+              </article>
+            </div>
+          </div>
+        </div>
+      </div>
+        <img
+            src="./assets/arrow_light.png"
+            alt="Arrow icon"
+            class="icon arrow"
+            onclick="location.href='./#projects'"
+        />
+    </section>
+    <section id="projects">
+        <p class="section_text_p1">Browse My Recent</p>
+        <h1 class="title">Projects</h1>
+        <div class="experience-details-container">
+            <div class="about-containers">
+                <div class="details-container project-color" >
+                    <div class="article-container">
+                        <img
+                            src="./assets/email-cover.png"
+                            alt="email projects"
+                            class="project-img"
+                        />
+                    </div>
+                    <h2 class="experience-sub-title project-title">Email Marketing</h2>
+                    <div class="btn-container">
+                        <button
+                            class="btn btn_one project-btn"
+                            onclick="location.href='https://google drive'"
+                            >
+                            Portfolio
+                        </button>
+                    </div>
+                </div>
+                <div class="details-container project-color" >
+                    <div class="article-container">
+                        <img
+                            src="./assets/web-cover.png"
+                            alt="Website projects"
+                            class="project-img"
+                        />
+                    </div>
+                    <h2 class="experience-sub-title project-title">Website Design</h2>
+                    <div class="btn-container">
+                        <button
+                            class="btn btn_one project-btn"
+                            onclick="location.href='https://google drive'"
+                            >
+                            Live Demo
+                        </button>
+                    </div>
+                </div>
+                <div class="details-container project-color" >
+                    <div class="article-container">
+                        <img
+                            src="./assets/email-dev-cover.png"
+                            alt="email Development projects"
+                            class="project-img"
+                        />
+                    </div>
+                    <h2 class="experience-sub-title project-title">Email Development</h2>
+                    <div class="btn-container">
+                        <button
+                            class="btn btn_one project-btn"
+                            onclick="location.href='https://google drive'"
+                            >
+                            GitHub
+                        </button>
+                    </div>
+                </div>
+                <div class="details-container project-color" >
+                    <div class="article-container">
+                        <img
+                            src="./assets/Marketing-cover.png"
+                            alt="Marketing Consultant projects"
+                            class="project-img"
+                        />
+                    </div>
+                    <h2 class="experience-sub-title project-title">Marketing Consultant</h2>
+                    <div class="btn-container">
+                        <button
+                            class="btn btn_one project-btn"
+                            onclick="location.href='https://google drive'"
+                            >
+                            Results
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    <img
+        src="./assets/arrow_light.png"
+        alt="Arrow icon"
+        class="icon arrow"
+        onclick="location.href='./#projects'"
+    />
+    </section>
+    <section id="contact">
+        <p class="section_text_p1">Get In Touch</p>
+        <h1 class="title">Contact Me</h1>
+        <div class="contact-info-upper-container">
+            <div class="contact-info-container">
+                <img
+                    src="./assets/email_light.png"
+                    alt="Email icon"
+                    class="icon contact-icon"
+                />
+                <p><a href="mailto:razkanmarketing@gmail.com">example@gmail.com</a></p>
+            </div>
+            <div class="contact-info-container">
+                <img
+                    src="./assets/github-mark.png"
+                    alt="GitHub icon"
+                    class="icon contact-icon"
+                />
+                <p><a href="https://www.github.com">GitHub</a></p>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <nav>
+            <div class="nav-links-container">
+                <ul class="nav-links">
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#experience">Experience</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+        <p>&copy;2023 Razkan Marketing. All Rights Reserved.</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
